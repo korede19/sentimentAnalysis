@@ -15,15 +15,15 @@ const FeedbackForm: React.FC = () => {
       return;
     }
     setLoading(true);
-    try {
-      const res = await axios.post('/api/feedback', { text: feedback });
-      setMessage('Feedback submitted successfully!');
-      setFeedback('');
-    } catch (error) {
-      setMessage('Error submitting feedback.');
-    } finally {
-      setLoading(false);
-    }
+    // try {
+    //   const res = await axios.post('/api/feedback', { text: feedback });
+    //   setMessage('Feedback submitted successfully!');
+    //   setFeedback('');
+    // } catch  {
+    //   setMessage('Error submitting feedback.');
+    // } finally {
+    //   setLoading(false);
+    // }
   };
 
   return (
