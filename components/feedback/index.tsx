@@ -57,9 +57,8 @@ const FeedbackForm: React.FC = () => {
       // Reset form
       setName("");
       setText("");
-    } catch (error) {
+    } catch {
       setMessage("Error submitting feedback. Please try again.");
-      console.error(error);
     } finally {
       setLoading(false);
     }
