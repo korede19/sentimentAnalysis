@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "@types/sentiment": "^5.0.4",
     "axios": "^1.7.9",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5",
     "next": "15.1.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "sentiment": "^5.0.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -21,6 +26,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
+    "prisma": "^6.2.1",
     "typescript": "^5"
   }
 }
